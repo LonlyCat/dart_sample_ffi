@@ -1,0 +1,22 @@
+PODS:
+  - algorithm_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - algorithm_plugin (from `.symlinks/plugins/algorithm_plugin/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  algorithm_plugin:
+    :path: ".symlinks/plugins/algorithm_plugin/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  algorithm_plugin: 80594220af3018eff3fd1ba476349352b4704d63
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: 3a6dd53404c15adeac3718ab882c4b6262d08968
+
+COCOAPODS: 1.14.3

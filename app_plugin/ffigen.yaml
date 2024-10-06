@@ -1,0 +1,21 @@
+# Run with `dart run ffigen --config ffigen.yaml`.
+name: AlgorithmPluginBindings
+description: |
+  Bindings for `src/algorithm_plugin.h`.
+
+  Regenerate bindings with `dart run ffigen --config ffigen.yaml`.
+llvm-path:
+  - '/opt/homebrew/opt/llvm'
+output: 'lib/algorithm_plugin_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/libalgorithm.h'
+  include-directives:
+    - 'src/libalgorithm.h'
+preamble: |
+  // ignore_for_file: always_specify_types
+  // ignore_for_file: camel_case_types
+  // ignore_for_file: non_constant_identifier_names
+comments:
+  style: any
+  length: full
